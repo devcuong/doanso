@@ -3523,6 +3523,7 @@ select.links
 }
 .sidebar .widget {
         padding: 20px 12px 12px;
+		list-style: none;
 }
 
 .sidebar .widget .widget-head {
@@ -9498,3 +9499,6 @@ box-sizing: content-box !important;
     	padding: 0 !important;
     }
 	}
+#tswmenu{
+	display: none !important;
+}

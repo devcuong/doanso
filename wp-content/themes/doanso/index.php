@@ -9,9 +9,11 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>
-	<?php wp_title('|',true,'right');
-        bloginfo('name');
-    ?>
+	<?php
+
+wp_title('|', true, 'right');
+bloginfo('name');
+?>
 
 </title>
 <?php wp_head(); ?>
@@ -388,7 +390,8 @@ form.wpcf7-form p input[type="submit"] {
 							</ul> <i class="responsive-caret"></i></li>
 						<li id="menu-item-13327"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/hoc-tap-nckh">Tin hoạt động</a>
+							href="http://tuoitre.uit.edu.vn/category/hoc-tap-nckh">Tin hoạt
+								động</a>
 							<div class="cats-mega-wrap mom_cats_horizontal">
 								<div class="cats-mega-inner">
 									<ul class="sub-menu ">
@@ -628,7 +631,8 @@ form.wpcf7-form p input[type="submit"] {
 							</div> <i class="responsive-caret"></i></li>
 						<li id="menu-item-7995"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/cong-tac-to-chuc">Công tác tổ chức</a>
+							href="http://tuoitre.uit.edu.vn/category/cong-tac-to-chuc">Công
+								tác tổ chức</a>
 							<ul class="sub-menu ">
 								<li id="menu-item-7996"
 									class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item active menu-item-depth-1"><a
@@ -764,7 +768,7 @@ form.wpcf7-form p input[type="submit"] {
 									</div>
 								</div>
 							</div> <i class="responsive-caret"></i></li>
-			
+
 					</ul>
 					<div class="device-menu-wrap mom_visibility_device"
 						style="padding-right: 84px;">
@@ -782,7 +786,7 @@ form.wpcf7-form p input[type="submit"] {
 								href="http://tuoitre.uit.edu.vn/"><i
 									class="icon_only momizat-icon-home"></i><span
 									class="icon_only_label">Trang Chủ</span></a></li>
-							
+
 							<li id="menu-item-7955"
 								class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"><a
 								href="http://tuoitre.uit.edu.vn/category/gioi-thieu">Giới thiệu</a>
@@ -975,12 +979,64 @@ form.wpcf7-form p input[type="submit"] {
 		</nav>
 		<!--Navigation-->
 		<div class="boxed-content-wrapper clearfix" style="padding-top: 52px;">
+			<div style="height: 20px;"></div>
 			<div style="margin-top: -17px; margin-bottom: 20px;"></div>
-			<div class="inner"></div>
+			<div class="inner">
+				<div class="breaking-news">
+					<div class="the_ticker">
+						<div class="bn-title">
+							<span>Tiêu Điểm</span>
+						</div>
+						<div class="news-ticker">
+							<div class="tickercontainer">
+								<div class="mask">
+									<ul class="newsticker" style="width: 4239px; left: 78.59px;">
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/nguyen-thi-huyen-khuyet-tat-la-bat-tien-chu-khong-phai-bat-hanh.html">Nguyễn
+												Thị Huyền – Khuyết tật là bất tiện chứ không phải bất hạnh</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/toa-dam-sinh-vien-5-tot-va-con-duong-su-nghiep.html">Tọa
+												đàm Sinh viên 5 tốt và Con đường sự nghiệp</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/cong-tac-to-chuc/nghiep-vu-doan/trien-khai-thuc-hien-cac-hoat-dong-tuyen-truyen-cong-tac-giao-duc-nam-hoc-2016-2017.html">Triển
+												khai thực hiện các hoạt động tuyên truyền công tác giáo dục
+												năm học 2016-2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/cong-tac-to-chuc/nghiep-vu-doan/trien-khai-dang-ky-hoc-tap-lam-theo-tu-tuong-dao-duc-phong-cach-ho-chi-minh-nam-hoc-2016-2017.html">Triển
+												khai đăng ký học tập làm theo tư tưởng, đạo đức, phong cách
+												Hồ Chí Minh năm học 2016-2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/hoc-tap-nckh/cuoc-thi-hoc-thuat/dang-ky-tham-gia-ngay-hoi-tieng-anh-uit-uit-english-festival.html">Đăng
+												ký tham gia Ngày hội Tiếng Anh UIT – UIT ENGLISH FESTIVAL</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/uncategorized/uit-uel-chuong-trinh-tinh-nguyen-moc-cung-nhin-lai.html">[UIT
+												– UEL] – Chương trình tình nguyện Mộc, cùng nhìn lại</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/phong-trao/hoat-dong-the-thao/dang-ky-tham-gia-hoi-thao-mung-xuan-2017.html">Đăng
+												ký tham gia Hội thao Mừng xuân 2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/hanh-trinh-ve-dat-thep-thanh-dong.html">Hành
+												trình về Đất thép thành đồng</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/chay-dua-cung-hanh-trinh-kham-pha-dhqg-vnu-tour-2016.html">Chạy
+												đua cùng Hành trình khám phá ĐHQG “VNU Tour 2016”</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/phong-trao/may-tinh-cu-tri-thuc-moi/mtc-ttm-hanh-trinh-ve-dat-phuong-nam.html">MTC-TTM:
+												Hành trình về đất phương Nam</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--news ticker-->
+					</div>
+					<span class="current_time"><span>9:22:39</span> </span>
+				</div>
+				<!--breaking news-->
+			</div>
 			<div class="inner">
 				<div class="main_container">
 					<div class="main-col">
-						<?php get_sidebar('slideshow') ?>
+					<?php get_sidebar('slideshow') ?>
 						<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 							<div class="vc_col-sm-12 wpb_column vc_column_container ">
 								<div class="wpb_wrapper">
@@ -988,10 +1044,12 @@ form.wpcf7-form p input[type="submit"] {
 									<?php get_sidebar('btxh1') ?>
 									<!--news box-->
 									<!--News box three-->
+
+
 								</div>
 							</div>
 						</div>
-						<div class="vc_row wpb_row vc_row-fluid">
+						<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 							<div class="vc_col-sm-12 wpb_column vc_column_container ">
 								<div class="wpb_wrapper">
 									<!--News box three-->
@@ -1003,27 +1061,23 @@ form.wpcf7-form p input[type="submit"] {
 								</div>
 							</div>
 						</div>
-						<div class="vc_row wpb_row vc_row-fluid">
+						<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 							<div class="vc_col-sm-12 wpb_column vc_column_container ">
 								<div class="wpb_wrapper">
-									<!--News box two-->
+									<!--News box three-->
 									<?php get_sidebar('hcsn') ?>
 									<!--news box-->
-									<!--News box two-->
-
-
+									<!--News box three-->
 								</div>
 							</div>
 						</div>
-						<div class="vc_row wpb_row vc_row-fluid">
+						<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 							<div class="vc_col-sm-12 wpb_column vc_column_container ">
 								<div class="wpb_wrapper">
-									<!--News box two-->
+									<!--News box three-->
 									<?php get_sidebar('0506') ?>
 									<!--news box-->
-									<!--News box two-->
-
-
+									<!--News box three-->
 								</div>
 							</div>
 						</div>
@@ -1032,18 +1086,14 @@ form.wpcf7-form p input[type="submit"] {
 					<div class="clear"></div>
 				</div>
 				<!--main container-->
-				<div class="clear"></div>
 				<div class="sidebar main-sidebar">
-					<div class="widget widget_text">
-					<div class="widget-head"><h3 class="widget-title"><span>Tiện ích</span></h3></div>
-					<div class="textwidget"><a href="http://tuoitre.uit.edu.vn/quy-trinh-thu-tuc-cua-doan-hoi" target="_blank">
-					<img width="100%" alt="Quy trình - Thủ tục của Đoàn - Hội" src="./uit_files/QuyTrinhThuTuc.jpg" class="disappear appear"></a>
-					<br><br><a href="http://tuoitre.uit.edu.vn/lich-hoat-dong" target="_blank"><img width="100%" alt="Lịch hoạt động Đoàn - Hội" src="./uit_files/Lich-cong-tac.jpg" class="disappear appear"> </a><br><br></div></div>
+				<?php get_sidebar() ?>
 				</div>
 				<!--main sidebar-->
 				<div class="clear"></div>
 			</div>
 			<!--main inner-->
+
 		</div>
 		<!--content boxed wrapper-->
 		<?php get_sidebar('footer') ?>
@@ -1051,7 +1101,7 @@ form.wpcf7-form p input[type="submit"] {
 		<div class="copyrights-area">
 			<div class="inner">
 				<div style="text-align: center; font-family: Arial; color: #fff;">
- <a href="http://doanso.abc/"
+					<a href="http://doanso.abc/"
 						style="color: violet; font-size: 13px;"> <img
 						src="http://doanso.abc/wp-content/themes/doanso/images/logo.png"
 						style="width: 40px; height: 40;"> <b>Đội Chuyển giao công nghệ</b>

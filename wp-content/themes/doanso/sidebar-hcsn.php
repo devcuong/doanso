@@ -1,8 +1,7 @@
 <div class="news-box base-box nb-style3">
 										<header class="nb-header">
 											<h2 class="nb-title" style="">
-												<a
-													href="http://doanso.abc/category/ho-tro-sinh-vien">Khối HCSN - DN - Trường học</a>
+												<a href="http://doanso.abc/category/phong-trao">Khối HCSN - DN - Trường học</a>
 											</h2>
 										</header>
 										<!--nb header-->
@@ -10,7 +9,7 @@
 										<?php 
 										// Query get top 6 news
 										$btxh1 = array(
-										    'post_type'     =>  'hcsn-dn-truonghoc', // lay btxh1
+										    'post_type'     =>  'hcsn_dn_truonghoc', // lay hcsn
 										    'posts_per_page' => 5
 										);
 										$newsQuery = new WP_Query( $btxh1 );
@@ -68,9 +67,8 @@
 											<a href="http://doanso.abc/btxh1"
 												data-post_type="" class="show-more-ajax" data-offset="5"
 												data-number_of_posts="4" data-display="category"
-												data-category="290" data-tag="" data-nbs="3"
+												data-category="289" data-tag="" data-nbs="3"
 												data-sort="DESC" data-orderby="date">Xem tiếp
 											</a>
 										</footer>
-
 									</div>

@@ -10,7 +10,7 @@
 										<?php 
 										// Query get top 6 news
 										$btxh1 = array(
-										    'post_type'     =>  '05-06', // lay btxh1
+										    'post_type'     =>  '05_06', // lay btxh1
 										    'posts_per_page' => 5
 										);
 										$newsQuery = new WP_Query( $btxh1 );

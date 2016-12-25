@@ -217,10 +217,10 @@ if (! function_exists('thachpham_theme_setup')) {
             'id' => 'main-sidebar',
             'description' => __('Default sidebar'),
             'class' => 'main-sidebar',
-            'before_title' => '<h3 class="widget-title">',
+            'before_title' => '<h3 class="widget-head">',
             'after_title' => '</h3>'
         );
-        
+        register_sidebar( $sidebar );
     }
     add_action('init', 'thachpham_theme_setup');
 }
