@@ -9,9 +9,11 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>
-	<?php wp_title('|',true,'right');
-        bloginfo('name');
-    ?>
+	<?php
+
+wp_title('|', true, 'right');
+bloginfo('name');
+?>
 
 </title>
 <?php wp_head(); ?>
@@ -327,7 +329,7 @@ form.wpcf7-form p input[type="submit"] {
 					<div class="logo">
 
 						<h1>
-							<a href="http://doanso.abc/"> <img
+							<a href="http://tuoitre.uit.edu.vn/"> <img
 								src="http://doanso.abc/wp-content/themes/doanso/images/logo.png"
 								alt="Tuổi trẻ UIT" width="250" height="120"> <img
 								class="mom_retina_logo"
@@ -339,7 +341,7 @@ form.wpcf7-form p input[type="submit"] {
 					</div>
 					<div class="header-right header-right_custom-content"
 						style="margin-top: 10px">
-						<!--<a href="http://doanso.abc/?p=16305"><img width="55%" style="position: absolute; right: 0px;" src="http://forum.uit.edu.vn/attachment.php?attachmentid=18161&d=1447836588"/></a>-->
+						<!--<a href="http://tuoitre.uit.edu.vn/?p=16305"><img width="55%" style="position: absolute; right: 0px;" src="http://forum.uit.edu.vn/attachment.php?attachmentid=18161&d=1447836588"/></a>-->
 						<img width="55%" style="position: absolute; right: 0px;"
 							src="http://doanso.abc/wp-content/themes/doanso/images/PhienToaGiaDinh.jpg">
 					</div>
@@ -359,25 +361,23 @@ form.wpcf7-form p input[type="submit"] {
 						class="main-menu mom_visibility_desktop">
 						<li id="menu-item-7953"
 							class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4101 current_page_item mom_default_menu_item menu-item-iconsOnly menu-item-depth-0"><a
-							href="http://doanso.abc/"><i
+							href="http://tuoitre.uit.edu.vn/"><i
 								class="icon_only momizat-icon-home"></i><span
 								class="icon_only_label">Trang Chủ</span></a></li>
 						<li id="menu-item-7954"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-0"><a
-							href="http://doanso.abc/category/diem-tin"><i
-								class="momizat-icon-newspaper"></i>Điểm tin</a></li>
+							href="http://tuoitre.uit.edu.vn/category/diem-tin">Điểm tin</a></li>
 						<li id="menu-item-7955"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"><a
-							href="http://doanso.abc/category/gioi-thieu"><i
-								class="momizat-icon-file2"></i>Giới thiệu</a>
+							href="http://tuoitre.uit.edu.vn/category/gioi-thieu">Giới thiệu</a>
 							<ul class="sub-menu ">
 								<li id="menu-item-7956"
 									class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item active menu-item-depth-1"><a
-									href="http://doanso.abc/category/gioi-thieu/doan-tncs-ho-chi-minh"><i
+									href="http://tuoitre.uit.edu.vn/category/gioi-thieu/doan-tncs-ho-chi-minh"><i
 										class="brankic-icon-radio"></i>Đoàn TNCS Hồ Chí Minh</a></li>
 								<li id="menu-item-17125"
 									class="menu-item menu-item-type-post_type menu-item-object-page mom_default_menu_item menu-item-depth-1"><a
-									href="http://doanso.abc/doan-truong"><i
+									href="http://tuoitre.uit.edu.vn/doan-truong"><i
 										class="momizat-icon-users"></i>Đoàn trường</a></li>
 								<li id="menu-item-7959"
 									class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
@@ -388,391 +388,12 @@ form.wpcf7-form p input[type="submit"] {
 									href="http://tuoitre.uit.edu.vn/hoi-sinh-vien-truong"><i
 										class="momizat-icon-users2"></i>Hội Sinh viên trường</a></li>
 							</ul> <i class="responsive-caret"></i></li>
-						<li id="menu-item-7960"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/giao-duc"><i
-								class="enotype-icon-book"></i>Giáo dục</a>
-							<div class="cats-mega-wrap mom_cats_horizontal">
-								<div class="cats-mega-inner">
-
-									<ul class="sub-menu ">
-										<li id="menu-item-7962"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/giao-duc/chu-tich-ho-chi-minh"><i
-												class="fa-icon-user"></i>Chủ tịch Hồ chí Minh</a></li>
-										<li id="menu-item-7963"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/giao-duc/guong-sang-uit"><i
-												class="fa-icon-ok"></i>Gương sáng UIT</a></li>
-										<li id="menu-item-7964"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/giao-duc/lich-su-truyen-thong"><i
-												class="fa-icon-flag-alt"></i>Lịch sử – Truyền thống</a></li>
-										<li id="menu-item-7965"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/giao-duc/ly-luan-chinh-tri"><i
-												class="brankic-icon-book2"></i>Lý luận chính trị</a></li>
-										<li id="menu-item-7966"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1 active"><a
-											href="http://tuoitre.uit.edu.vn/category/giao-duc/phap-luat"><i
-												class="momizat-icon-books"></i>Pháp luật</a></li>
-									</ul>
-									<div class="subcat">
-										<div class="active mom-cat-latest" id="mn-latest-7962"
-											data-id="296" data-object="category" data-layout="horz"
-											style="display: none;">
-											<ul id="mn-ul-latest-7962">
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/sang-ngoi-nhan-cach-ho-chi-minh-so-2-2.html"
-																title="Sáng ngời nhân cách Hồ Chí Minh – số 2"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/buacomcuabac-120x76.jpg"
-																alt="Sáng ngời nhân cách Hồ Chí Minh – số 2" width="117"
-																height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/sang-ngoi-nhan-cach-ho-chi-minh-so-2-2.html"
-																title="Sáng ngời nhân cách Hồ Chí Minh – số 2"> Sáng
-																ngời nhân cách Hồ Chí Minh – số 2</a>
-														</div>
-														<span> 7 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/sang-ngoi-nhan-cach-ho-chi-minh-so-1.html"
-																title="Sáng ngời nhân cách Hồ Chí Minh – số 1"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/BacVoiNhanDan-120x76.jpg"
-																alt="Sáng ngời nhân cách Hồ Chí Minh – số 1" width="117"
-																height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/sang-ngoi-nhan-cach-ho-chi-minh-so-1.html"
-																title="Sáng ngời nhân cách Hồ Chí Minh – số 1"> Sáng
-																ngời nhân cách Hồ Chí Minh – số 1</a>
-														</div>
-														<span> 7 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/huong-dan-ve-viec-hoc-tap-mot-so-tac-pham-cua-chu-tich-ho-chi-minh-trong-to-chuc-doan-tncs-ho-chi-minh.html"
-																title="HƯỚNG DẪN Về việc học tập một số tác phẩm của Chủ tịch Hồ Chí Minh  trong tổ chức Đoàn TNCS Hồ Chí Minh"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/WebTuoiTre-120x76.jpg"
-																alt="HƯỚNG DẪN Về việc học tập một số tác phẩm của Chủ tịch Hồ Chí Minh  trong tổ chức Đoàn TNCS Hồ Chí Minh"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/chu-tich-ho-chi-minh/huong-dan-ve-viec-hoc-tap-mot-so-tac-pham-cua-chu-tich-ho-chi-minh-trong-to-chuc-doan-tncs-ho-chi-minh.html"
-																title="HƯỚNG DẪN Về việc học tập một số tác phẩm của Chủ tịch Hồ Chí Minh  trong tổ chức Đoàn TNCS Hồ Chí Minh">
-																HƯỚNG DẪN Về việc học tập một số tác phẩm của Chủ tịch
-																Hồ Chí Minh trong tổ chức Đoàn TNCS Hồ Chí Minh</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/giao-duc/chu-tich-ho-chi-minh"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7963" data-id="300"
-											data-object="category" data-layout="horz"
-											style="display: none;">
-											<ul id="mn-ul-latest-7963" class="">
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/nguyen-thi-huyen-khuyet-tat-la-bat-tien-chu-khong-phai-bat-hanh.html"
-																title="Nguyễn Thị Huyền – Khuyết tật là bất tiện chứ không phải bất hạnh"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Nguyễn Thị Huyền – Khuyết tật là bất tiện chứ không phải bất hạnh"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/nguyen-thi-huyen-khuyet-tat-la-bat-tien-chu-khong-phai-bat-hanh.html"
-																title="Nguyễn Thị Huyền – Khuyết tật là bất tiện chứ không phải bất hạnh">
-																Nguyễn Thị Huyền – Khuyết tật là bất tiện chứ không phải
-																bất hạnh</a>
-														</div>
-														<span> 1 ngày trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/5367.html"
-																title="Giải thưởng CNTT-TT TP.HCM lần 5"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Giải thưởng CNTT-TT TP.HCM lần 5" width="117"
-																height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/5367.html"
-																title="Giải thưởng CNTT-TT TP.HCM lần 5"> Giải thưởng
-																CNTT-TT TP.HCM lần 5</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/dai-hoi-dai-bieu-doan-khoa-mmttt-lan-i-nhiem-ki-2015-2017-dai-hoi-cua-suc-tre.html"
-																title="Đại hội Đại biểu Đoàn khoa MMT&amp;TT lần I – Nhiệm kì 2015-2017 – Đại hội của Sức trẻ"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/dhh2-120x76.jpg"
-																alt="Đại hội Đại biểu Đoàn khoa MMT&amp;TT lần I – Nhiệm kì 2015-2017 – Đại hội của Sức trẻ"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/dai-hoi-dai-bieu-doan-khoa-mmttt-lan-i-nhiem-ki-2015-2017-dai-hoi-cua-suc-tre.html"
-																title="Đại hội Đại biểu Đoàn khoa MMT&amp;TT lần I – Nhiệm kì 2015-2017 – Đại hội của Sức trẻ">
-																Đại hội Đại biểu Đoàn khoa MMT&amp;TT lần I – Nhiệm kì
-																2015-2017 – Đại hội của Sức trẻ</a>
-														</div>
-														<span> 2 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/giao-duc/guong-sang-uit"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7964" data-id="297"
-											data-object="category" data-layout="horz"
-											style="display: none;">
-											<ul id="mn-ul-latest-7964" class="">
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/hanh-trinh-ve-dat-thep-thanh-dong.html"
-																title="Hành trình về Đất thép thành đồng"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/Hanh-trinh-SV5T-TNTT-9-120x76.jpg"
-																alt="Hành trình về Đất thép thành đồng" width="117"
-																height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/hanh-trinh-ve-dat-thep-thanh-dong.html"
-																title="Hành trình về Đất thép thành đồng"> Hành trình về
-																Đất thép thành đồng</a>
-														</div>
-														<span> 3 tuần trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/lich-su-truyen-thong/thong-bao-to-chuc-sinh-hoat-chu-diem-thang-232016-chu-de-tu-hao-va-phat-huy-truyen-thong-ve-vang-85-nam-doan-thanh-nien-cong-san-ho-chi-minh.html"
-																title="Thông báo Tổ chức sinh hoạt chủ điểm tháng 2,3/2016, chủ đề: “Tự hào và phát huy truyền thống vẻ vang 85 năm  Đoàn Thanh niên cộng sản Hồ Chí Minh”"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Thông báo Tổ chức sinh hoạt chủ điểm tháng 2,3/2016, chủ đề: “Tự hào và phát huy truyền thống vẻ vang 85 năm  Đoàn Thanh niên cộng sản Hồ Chí Minh”"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/lich-su-truyen-thong/thong-bao-to-chuc-sinh-hoat-chu-diem-thang-232016-chu-de-tu-hao-va-phat-huy-truyen-thong-ve-vang-85-nam-doan-thanh-nien-cong-san-ho-chi-minh.html"
-																title="Thông báo Tổ chức sinh hoạt chủ điểm tháng 2,3/2016, chủ đề: “Tự hào và phát huy truyền thống vẻ vang 85 năm  Đoàn Thanh niên cộng sản Hồ Chí Minh”">
-																Thông báo Tổ chức sinh hoạt chủ điểm tháng 2,3/2016, chủ
-																đề: “Tự hào và phát huy truyền thống vẻ vang 85 năm Đoàn
-																Thanh niên cộng sản Hồ Chí Minh”</a>
-														</div>
-														<span> 10 tháng trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/lich-su-truyen-thong/4829.html"
-																title="Bình chọn CBVC-GV được yêu thích nhất năm học 2012-2013"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Bình chọn CBVC-GV được yêu thích nhất năm học 2012-2013"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/lich-su-truyen-thong/4829.html"
-																title="Bình chọn CBVC-GV được yêu thích nhất năm học 2012-2013">
-																Bình chọn CBVC-GV được yêu thích nhất năm học 2012-2013</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/giao-duc/lich-su-truyen-thong"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7965" data-id="299"
-											data-object="category" data-layout="horz"
-											style="display: none;">
-											<ul id="mn-ul-latest-7965" class="">
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/moi-doan-vien-thanh-nien-thanh-pho-tham-gia-cuoc-thi-truc-tuyen-tuoi-tre-thanh-pho-ho-chi-minh-voi-phap-luat-nam-2016.html"
-																title="Mời đoàn viên, thanh niên Thành phố  tham gia Cuộc thi trực tuyến “Tuổi trẻ Thành phố Hồ Chí Minh với Pháp luật” năm 2016"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Mời đoàn viên, thanh niên Thành phố  tham gia Cuộc thi trực tuyến “Tuổi trẻ Thành phố Hồ Chí Minh với Pháp luật” năm 2016"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/moi-doan-vien-thanh-nien-thanh-pho-tham-gia-cuoc-thi-truc-tuyen-tuoi-tre-thanh-pho-ho-chi-minh-voi-phap-luat-nam-2016.html"
-																title="Mời đoàn viên, thanh niên Thành phố  tham gia Cuộc thi trực tuyến “Tuổi trẻ Thành phố Hồ Chí Minh với Pháp luật” năm 2016">
-																Mời đoàn viên, thanh niên Thành phố tham gia Cuộc thi
-																trực tuyến “Tuổi trẻ Thành phố Hồ Chí Minh với Pháp
-																luật” năm 2016</a>
-														</div>
-														<span> 1 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/mong-doi-mot-chien-thang.html"
-																title="Mong đợi một chiến thắng …"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/DSCF1871-120x76.jpg"
-																alt="Mong đợi một chiến thắng …" width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/mong-doi-mot-chien-thang.html"
-																title="Mong đợi một chiến thắng …"> Mong đợi một chiến
-																thắng …</a>
-														</div>
-														<span> 8 tháng trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/ket-qua-lop-6-bai-ly-luan-chinh-tri-cac-nam-2012-2013-2014.html"
-																title="Kết quả lớp “6 bài Lý luận chính trị” các năm 2012, 2013, 2014"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Kết quả lớp “6 bài Lý luận chính trị” các năm 2012, 2013, 2014"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/ly-luan-chinh-tri/ket-qua-lop-6-bai-ly-luan-chinh-tri-cac-nam-2012-2013-2014.html"
-																title="Kết quả lớp “6 bài Lý luận chính trị” các năm 2012, 2013, 2014">
-																Kết quả lớp “6 bài Lý luận chính trị” các năm 2012,
-																2013, 2014</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/giao-duc/ly-luan-chinh-tri"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7966" data-id="298"
-											data-object="category" data-layout="horz"
-											style="display: block;">
-											<ul id="mn-ul-latest-7966" class="">
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/phap-luat/to-chuc-thi-truc-tuyen-tim-hieu-kien-thuc-giao-thong-nam-2016-ten-goi-cuoc-thi-an-toan-giao-thong-hanh-phuc-cua-moi-nha-nam-2016.html"
-																title="Tổ chức thi trực tuyến tìm hiểu kiến thức giao thông năm 2016  “An toàn giao thông – Hạnh phúc của mọi nhà” Năm 2016"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Tổ chức thi trực tuyến tìm hiểu kiến thức giao thông năm 2016  “An toàn giao thông – Hạnh phúc của mọi nhà” Năm 2016"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/phap-luat/to-chuc-thi-truc-tuyen-tim-hieu-kien-thuc-giao-thong-nam-2016-ten-goi-cuoc-thi-an-toan-giao-thong-hanh-phuc-cua-moi-nha-nam-2016.html"
-																title="Tổ chức thi trực tuyến tìm hiểu kiến thức giao thông năm 2016  “An toàn giao thông – Hạnh phúc của mọi nhà” Năm 2016">
-																Tổ chức thi trực tuyến tìm hiểu kiến thức giao thông năm
-																2016 “An toàn giao thông – Hạnh phúc của mọi nhà” Năm
-																2016</a>
-														</div>
-														<span> 3 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/phap-luat/tap-huan-ky-nang-lai-xe-an-toan-cho-sinh-vien.html"
-																title="Tập huấn kỹ năng lái xe an toàn"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/Backdrop-120x76.jpg"
-																alt="Tập huấn kỹ năng lái xe an toàn" width="117"
-																height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/giao-duc/phap-luat/tap-huan-ky-nang-lai-xe-an-toan-cho-sinh-vien.html"
-																title="Tập huấn kỹ năng lái xe an toàn"> Tập huấn kỹ
-																năng lái xe an toàn</a>
-														</div>
-														<span> 8 tháng trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/uncategorized/ke-hoach-to-chuc-cac-hoat-dong-tuyen-truyen-hoc-ky-i-nam-hoc-2015-2016.html"
-																title="Kế hoạch tổ chức các hoạt động tuyên truyền học kỳ I năm học 2015-2016"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="Kế hoạch tổ chức các hoạt động tuyên truyền học kỳ I năm học 2015-2016"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/uncategorized/ke-hoach-to-chuc-cac-hoat-dong-tuyen-truyen-hoc-ky-i-nam-hoc-2015-2016.html"
-																title="Kế hoạch tổ chức các hoạt động tuyên truyền học kỳ I năm học 2015-2016">
-																Kế hoạch tổ chức các hoạt động tuyên truyền học kỳ I năm
-																học 2015-2016</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/giao-duc/phap-luat"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-									</div>
-								</div>
-							</div> <i class="responsive-caret"></i></li>
 						<li id="menu-item-13327"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/hoc-tap-nckh"><i
-								class="brankic-icon-book"></i>Học tập – NCKH</a>
+							href="http://tuoitre.uit.edu.vn/category/hoc-tap-nckh">Tin hoạt
+								động</a>
 							<div class="cats-mega-wrap mom_cats_horizontal">
 								<div class="cats-mega-inner">
-
 									<ul class="sub-menu ">
 										<li id="menu-item-13328"
 											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
@@ -1010,8 +631,8 @@ form.wpcf7-form p input[type="submit"] {
 							</div> <i class="responsive-caret"></i></li>
 						<li id="menu-item-7995"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/cong-tac-to-chuc"><i
-								class="enotype-icon-briefcase"></i>Công tác tổ chức</a>
+							href="http://tuoitre.uit.edu.vn/category/cong-tac-to-chuc">Công
+								tác tổ chức</a>
 							<ul class="sub-menu ">
 								<li id="menu-item-7996"
 									class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item active menu-item-depth-1"><a
@@ -1032,8 +653,7 @@ form.wpcf7-form p input[type="submit"] {
 							</ul> <i class="responsive-caret"></i></li>
 						<li id="menu-item-7974"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/phong-trao"><i
-								class="enotype-icon-rss"></i>Phong trào</a>
+							href="http://tuoitre.uit.edu.vn/category/phong-trao">Phong trào</a>
 							<div class="cats-mega-wrap mom_cats_horizontal">
 								<div class="cats-mega-inner">
 
@@ -1090,45 +710,6 @@ form.wpcf7-form p input[type="submit"] {
 																năm 2016</a>
 														</div>
 														<span> 6 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/mhx2016-chien-dich-mua-he-xanh-nam-2016-ban-da-san-sang.html"
-																title="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/LogoMHX-120x76.png"
-																alt="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/mhx2016-chien-dich-mua-he-xanh-nam-2016-ban-da-san-sang.html"
-																title="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?">
-																[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn
-																sàng?</a>
-														</div>
-														<span> 7 tháng trước</span>
-													</div></li>
-												<li><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/thu-linh-sinh-vien-2016-da-chinh-thuc-khoi-dong.html"
-																title="THỦ LĨNH SINH VIÊN 2016 đã chính thức khởi động"><img
-																src="http://tuoitre.uit.edu.vn/"
-																alt="THỦ LĨNH SINH VIÊN 2016 đã chính thức khởi động"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/thu-linh-sinh-vien-2016-da-chinh-thuc-khoi-dong.html"
-																title="THỦ LĨNH SINH VIÊN 2016 đã chính thức khởi động">
-																THỦ LĨNH SINH VIÊN 2016 đã chính thức khởi động</a>
-														</div>
-														<span> 9 tháng trước</span>
 													</div></li>
 											</ul>
 											<a
@@ -1187,153 +768,7 @@ form.wpcf7-form p input[type="submit"] {
 									</div>
 								</div>
 							</div> <i class="responsive-caret"></i></li>
-						<li id="menu-item-7982"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
-							href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien"><i
-								class="enotype-icon-users"></i>Hỗ trợ sinh viên</a>
-							<div class="cats-mega-wrap mom_cats_horizontal">
-								<div class="cats-mega-inner">
 
-									<ul class="sub-menu ">
-										<li id="menu-item-7983"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item active menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/cau-hoi-thuong-gap"><i
-												class="enotype-icon-help"></i>Câu hỏi thường gặp</a></li>
-										<li id="menu-item-7985"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/hoc-bong-ho-tro"><i
-												class="enotype-icon-graduation"></i>Học bổng – Hỗ trợ</a></li>
-										<li id="menu-item-7986"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/hoi-thao"><i
-												class="enotype-icon-bell"></i>Hội thảo</a></li>
-										<li id="menu-item-7987"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/ky-nang-sinh-vien"><i
-												class="momizat-icon-dice"></i>Kỹ năng sinh viên</a></li>
-										<li id="menu-item-7988"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/tam-ly-suc-khoe"><i
-												class="brankic-icon-heart2"></i>Tâm lý – Sức khỏe</a></li>
-										<li id="menu-item-7989"
-											class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-1"><a
-											href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/viec-lam-thuc-tap"><i
-												class="momizat-icon-briefcase"></i>Việc làm – Thực tập</a></li>
-									</ul>
-									<div class="subcat">
-										<div class="active mom-cat-latest" id="mn-latest-7983"
-											data-id="325" data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7983">
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/mhx2016-chien-dich-mua-he-xanh-nam-2016-ban-da-san-sang.html"
-																title="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/LogoMHX-120x76.png"
-																alt="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/diem-tin/mhx2016-chien-dich-mua-he-xanh-nam-2016-ban-da-san-sang.html"
-																title="[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn sàng?">
-																[MHX2016] – Chiến dịch Mùa hè xanh năm 2016, bạn đã sẵn
-																sàng?</a>
-														</div>
-														<span> 7 tháng trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/ho-tro-sinh-vien/cau-hoi-thuong-gap/2139.html"
-																title="Kỷ niệm 55 năm ngày truyền thống Hội Liên Hiệp Thanh Niên Việt Nam"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/WebTuoiTre-120x76.jpg"
-																alt="Kỷ niệm 55 năm ngày truyền thống Hội Liên Hiệp Thanh Niên Việt Nam"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/ho-tro-sinh-vien/cau-hoi-thuong-gap/2139.html"
-																title="Kỷ niệm 55 năm ngày truyền thống Hội Liên Hiệp Thanh Niên Việt Nam">
-																Kỷ niệm 55 năm ngày truyền thống Hội Liên Hiệp Thanh
-																Niên Việt Nam</a>
-														</div>
-														<span> 1 năm trước</span>
-													</div></li>
-												<li class="has-thumbnail"><div class="subcat-thumbnail">
-														<div class="dothanh">
-															<a
-																href="http://tuoitre.uit.edu.vn/ho-tro-sinh-vien/cau-hoi-thuong-gap/soi-noi-chuong-trinh-phuong-phap-hoc-tap-bac-dai-hoc-nam-2013-cho-tan-sinh-vien-khoa-mang-may-tinh-truyen-thong.html"
-																title="Sôi nổi chương trình “Phương pháp học tập bậc Đại học” năm 2013 cho Tân sinh viên Khoa Mạng máy tính &amp; Truyền thông"><img
-																src="http://doanso.abc/wp-content/themes/doanso/images/1395451_654310174621950_1260935533_n2-120x76.jpg"
-																alt="Sôi nổi chương trình “Phương pháp học tập bậc Đại học” năm 2013 cho Tân sinh viên Khoa Mạng máy tính &amp; Truyền thông"
-																width="117" height="74"></a>
-														</div>
-													</div>
-													<div class="subcat-title">
-														<div class="thanhdo">
-															<a
-																href="http://tuoitre.uit.edu.vn/ho-tro-sinh-vien/cau-hoi-thuong-gap/soi-noi-chuong-trinh-phuong-phap-hoc-tap-bac-dai-hoc-nam-2013-cho-tan-sinh-vien-khoa-mang-may-tinh-truyen-thong.html"
-																title="Sôi nổi chương trình “Phương pháp học tập bậc Đại học” năm 2013 cho Tân sinh viên Khoa Mạng máy tính &amp; Truyền thông">
-																Sôi nổi chương trình “Phương pháp học tập bậc Đại học”
-																năm 2013 cho Tân sinh viên Khoa Mạng máy tính &amp;
-																Truyền thông</a>
-														</div>
-														<span> 3 năm trước</span>
-													</div></li>
-											</ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/cau-hoi-thuong-gap"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7985" data-id="319"
-											data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7985"></ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/hoc-bong-ho-tro"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7986" data-id="324"
-											data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7986"></ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/hoi-thao"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7987" data-id="322"
-											data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7987"></ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/ky-nang-sinh-vien"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7988" data-id="323"
-											data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7988"></ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/tam-ly-suc-khoe"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-										<div class=" mom-cat-latest" id="mn-latest-7989" data-id="320"
-											data-object="category" data-layout="horz">
-											<ul id="mn-ul-latest-7989"></ul>
-											<a
-												href="http://tuoitre.uit.edu.vn/category/ho-tro-sinh-vien/viec-lam-thuc-tap"
-												title="" class="view_all_posts">Xem tất cả<i
-												class="long-arrow-icon"></i></a>
-										</div>
-									</div>
-								</div>
-							</div> <i class="responsive-caret"></i></li>
 					</ul>
 					<div class="device-menu-wrap mom_visibility_device"
 						style="padding-right: 84px;">
@@ -1351,14 +786,10 @@ form.wpcf7-form p input[type="submit"] {
 								href="http://tuoitre.uit.edu.vn/"><i
 									class="icon_only momizat-icon-home"></i><span
 									class="icon_only_label">Trang Chủ</span></a></li>
-							<li id="menu-item-7954"
-								class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item menu-item-depth-0"><a
-								href="http://tuoitre.uit.edu.vn/category/diem-tin"><i
-									class="momizat-icon-newspaper"></i>Điểm tin</a></li>
+
 							<li id="menu-item-7955"
 								class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_default_menu_item menu-item-depth-0"><a
-								href="http://tuoitre.uit.edu.vn/category/gioi-thieu"><i
-									class="momizat-icon-file2"></i>Giới thiệu</a>
+								href="http://tuoitre.uit.edu.vn/category/gioi-thieu">Giới thiệu</a>
 								<ul class="sub-menu ">
 									<li id="menu-item-7956"
 										class="menu-item menu-item-type-taxonomy menu-item-object-category mom_default_menu_item active menu-item-depth-1"><a
@@ -1466,7 +897,7 @@ form.wpcf7-form p input[type="submit"] {
 							<li id="menu-item-7974"
 								class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-parent-item mom_mega_cats menu-item-depth-0"><a
 								href="http://tuoitre.uit.edu.vn/category/phong-trao"><i
-									class="enotype-icon-rss"></i>Phong trào</a>
+									class="enotype-icon-rss"></i>Tài liệu</a>
 								<div class="cats-mega-wrap mom_cats_horizontal">
 									<div class="cats-mega-inner">
 
@@ -1541,117 +972,99 @@ form.wpcf7-form p input[type="submit"] {
 								</div></li>
 						</ul>
 					</div>
-					<div class="nav-buttons">
-						<span class="nav-button nav-login"> <i class="momizat-icon-users"></i>
-						</span>
-						<div class="nb-inner-wrap">
-							<div class="nb-inner lw-inner">
-								<div class="mom-login-widget">
-									<form class="mom-login-form"
-										action="http://tuoitre.uit.edu.vn/wp-login.php" method="post">
-										<div class="mom-username">
-											<input type="text" name="log" value=""
-												placeholder="Tên đăng nhập">
-										</div>
-
-										<div class="mom-password">
-											<input type="password" name="pwd" value=""
-												placeholder="Mật khẩu">
-										</div>
-
-										<div class="mom-submit-wrapper">
-											<button class="button submit user-submit" name="user-submit"
-												type="submit">Đăng nhập</button>
-											<input type="checkbox" id="rememberme" name="rememberme"
-												value="forever"> <label for="rememberme"><i
-												class="dashicons dashicons-yes"></i>Duy trì đăng nhập</label>
-											<input type="hidden" name="redirect_to"
-												value="http://tuoitre.uit.edu.vn/">
-										</div>
-									</form>
-									<div class="clear"></div>
-								</div>
-							</div>
-						</div>
-
-
-						<span class="nav-button nav-search"> <i class="fa-icon-search"></i>
-						</span>
-						<div class="nb-inner-wrap search-wrap border-box">
-							<div class="nb-inner sw-inner">
-								<div class="search-form mom-search-form">
-									<form method="get" action="http://tuoitre.uit.edu.vn/">
-										<input class="sf" type="text" placeholder="Tìm kiếm ..."
-											autocomplete="off" name="s">
-										<button class="button" type="submit">
-											<i class="fa-icon-search"></i>
-										</button>
-									</form>
-									<span class="sf-loading"><img
-										src="http://doanso.abc/wp-content/themes/doanso/images/ajax-search-nav.gif"
-										alt="loading..." width="16" height="16"></span>
-								</div>
-								<div class="ajax_search_results"></div>
-								<!--ajax search results-->
-							</div>
-							<!--sw inner-->
-						</div>
-						<!--search wrap-->
-
-					</div>
 					<!--nav-buttons-->
-
 				</div>
 			</div>
 			<!--nav inner-->
 		</nav>
 		<!--Navigation-->
-		<div class="boxed-content-wrapper clearfix" style="padding-top: 10px;">
+		<div class="boxed-content-wrapper clearfix" style="padding-top: 52px;">
+			<div style="height: 20px;"></div>
 			<div style="margin-top: -17px; margin-bottom: 20px;"></div>
-
-			<div class="inner"></div>
 			<div class="inner">
-				<div class="main_container_single">
-				<div class="main_col">
-        		<?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
-        
-                <?php get_template_part('content', get_post_format()); ?>
-        
-                <?php endwhile ?>
-                <?php else: ?>
-                    <?php get_template_part('content', 'none'); ?>
-                <?php endif ?>
-                </div>
+				<div class="breaking-news">
+					<div class="the_ticker">
+						<div class="bn-title">
+							<span>Tiêu Điểm</span>
+						</div>
+						<div class="news-ticker">
+							<div class="tickercontainer">
+								<div class="mask">
+									<ul class="newsticker" style="width: 4239px; left: 78.59px;">
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/giao-duc/guong-sang-uit/nguyen-thi-huyen-khuyet-tat-la-bat-tien-chu-khong-phai-bat-hanh.html">Nguyễn
+												Thị Huyền – Khuyết tật là bất tiện chứ không phải bất hạnh</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/toa-dam-sinh-vien-5-tot-va-con-duong-su-nghiep.html">Tọa
+												đàm Sinh viên 5 tốt và Con đường sự nghiệp</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/cong-tac-to-chuc/nghiep-vu-doan/trien-khai-thuc-hien-cac-hoat-dong-tuyen-truyen-cong-tac-giao-duc-nam-hoc-2016-2017.html">Triển
+												khai thực hiện các hoạt động tuyên truyền công tác giáo dục
+												năm học 2016-2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/cong-tac-to-chuc/nghiep-vu-doan/trien-khai-dang-ky-hoc-tap-lam-theo-tu-tuong-dao-duc-phong-cach-ho-chi-minh-nam-hoc-2016-2017.html">Triển
+												khai đăng ký học tập làm theo tư tưởng, đạo đức, phong cách
+												Hồ Chí Minh năm học 2016-2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/hoc-tap-nckh/cuoc-thi-hoc-thuat/dang-ky-tham-gia-ngay-hoi-tieng-anh-uit-uit-english-festival.html">Đăng
+												ký tham gia Ngày hội Tiếng Anh UIT – UIT ENGLISH FESTIVAL</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/uncategorized/uit-uel-chuong-trinh-tinh-nguyen-moc-cung-nhin-lai.html">[UIT
+												– UEL] – Chương trình tình nguyện Mộc, cùng nhìn lại</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/phong-trao/hoat-dong-the-thao/dang-ky-tham-gia-hoi-thao-mung-xuan-2017.html">Đăng
+												ký tham gia Hội thao Mừng xuân 2017</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/hanh-trinh-ve-dat-thep-thanh-dong.html">Hành
+												trình về Đất thép thành đồng</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/diem-tin/chay-dua-cung-hanh-trinh-kham-pha-dhqg-vnu-tour-2016.html">Chạy
+												đua cùng Hành trình khám phá ĐHQG “VNU Tour 2016”</a></li>
+										<li><i class="fa-icon-double-angle-right"></i><a
+											href="http://tuoitre.uit.edu.vn/phong-trao/may-tinh-cu-tri-thuc-moi/mtc-ttm-hanh-trinh-ve-dat-phuong-nam.html">MTC-TTM:
+												Hành trình về đất phương Nam</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!--news ticker-->
+					</div>
+					<span class="current_time"><span>9:22:39</span> </span>
+				</div>
+				<!--breaking news-->
+			</div>
+			<div class="inner">
+				<div class="main_container">
+					<div class="main-col">
+					 <?php if ( have_posts() ) : while( have_posts() ) : the_post(); ?>
+
+					<?php get_template_part('content', get_post_format()); ?>
+
+					<?php endwhile ?>
+					<?php else: ?>
+						<?php get_template_part('content', 'none'); ?>
+					<?php endif ?>
+					</div>
 					<!--main column-->
 					<div class="clear"></div>
 				</div>
 				<!--main container-->
+				<div class="sidebar main-sidebar">
+				<?php get_sidebar() ?>
+				</div>
+				<!--main sidebar-->
 				<div class="clear"></div>
 			</div>
 			<!--main inner-->
+
 		</div>
 		<!--content boxed wrapper-->
-		<footer id="footer">
-			<div class="inner">
-				<div class="widget widget_text">
-					<div class="textwidget">
-						<div style="padding: 10px auto; color: #fff;">
-							<div
-								style="font-size: 15px; font-family: Helvetica; font-weight: 600;">Đoàn Sở Lao động - Thương binh & Xã hội TP.HCM </div>
-							159 Pasteur, Phường 6, Quận 3, TP.HCM | Tel: 0838203351 
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-			</div>
-			<!--// footer inner-->
-		</footer>
+		<?php get_sidebar('footer') ?>
 		<!--//footer-->
 		<div class="copyrights-area">
 			<div class="inner">
 				<div style="text-align: center; font-family: Arial; color: #fff;">
-					<a href="http://tuoitre.uit.edu.vn/"
+					<a href="http://doanso.abc/"
 						style="color: violet; font-size: 13px;"> <img
 						src="http://doanso.abc/wp-content/themes/doanso/images/logo.png"
 						style="width: 40px; height: 40;"> <b>Đội Chuyển giao công nghệ</b>
@@ -1668,8 +1081,6 @@ form.wpcf7-form p input[type="submit"] {
 		<div class="clear"></div>
 	</div>
 	<!--Boxed wrap-->
-	<a href="http://tuoitre.uit.edu.vn/#" class="scrollToTop button"
-		style="display: block;"><i class="enotype-icon-arrow-up"></i></a>
 	<script type="text/javascript">
 /* <![CDATA[ */
 var _wpcf7 = {"loaderUrl":"http:\/\/tuoitre.uit.edu.vn\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"\u0110ang g\u1eedi ..."};
