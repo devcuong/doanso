@@ -30,7 +30,7 @@
 	<div class="inner">
 		<div class="main_container">
 			<div class="main-col">
-						<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
+					<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 					<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<div class="wpb_wrapper">
 							<!--News box three-->
@@ -41,7 +41,27 @@
 
 						</div>
 					</div>
-				</div>
+					</div>
+					<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
+					<div class="vc_col-sm-12 wpb_column vc_column_container ">
+						<div class="wpb_wrapper">
+							<!--News box three-->
+							<div class="header-right header-right_custom-content"
+								style="margin-bottom: 20px">
+								<?php
+									$featureId = 1504;
+									$postHeader = get_post( $featureId );
+									$content = $postHeader -> post_content;
+									echo $content;
+								?>
+							</div>
+									<!--news box-->
+							<!--News box three-->
+
+
+						</div>
+					</div>
+					</div>
 				<div class="vc_row wpb_row vc_row-fluid vc_custom_1438851416240">
 					<div class="vc_col-sm-12 wpb_column vc_column_container ">
 						<div class="wpb_wrapper">

@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Trang thong tin hoat dong co so
+ * Template Name: Trang hoc tap theo bac nhung thanh nien tieu bieu
  */
 ?>
 <?php get_header(); ?>
@@ -41,10 +41,10 @@ echo $date;
     $paged = get_query_var('paged', 1);
     ?>
 
-<h1>THÔNG TIN HOẠT ĐỘNG CƠ SỞ</h1>
+<h1>HỌC TẬP VÀ LÀM THEO BÁC - GƯƠNG THANH NIÊN TIÊN TIẾN LÀM THEO LỜI BÁC</h1>
     <?php
     $v_args = array(
-        'cat' => 79,
+        'cat' => 83,
         'post_type' => 'post',
         'posts_per_page' => $postPerPage,
         'paged' => $paged
@@ -92,9 +92,9 @@ echo $date;
     echo "<ul class='pagination'>";
     for ($i = 1; $i <= $pagedPost; $i ++) {
         if ((int) $paged == $i) {
-            echo "<li><a href='http://doanso.abc/thong-tin-doan-thanh-nien-so/page/" . $i . "' class='active'>" . $i . "</a></li>";
+            echo "<li><a href='http://doanso.abc/hoc-tap-va-lam-theo-loi-bac-guong-thanh-nien-tien-tien-lam-theo-loi-bac/page/" . $i . "' class='active'>" . $i . "</a></li>";
         } else {
-            echo "<li><a href='http://doanso.abc/thong-tin-doan-thanh-nien-so/page/" . $i . "'>" . $i . "</a></li>";
+            echo "<li><a href='http://doanso.abc/hoc-tap-va-lam-theo-loi-bac-guong-thanh-nien-tien-tien-lam-theo-loi-bac/page/" . $i . "'>" . $i . "</a></li>";
         }
     }
     echo "</ul>";

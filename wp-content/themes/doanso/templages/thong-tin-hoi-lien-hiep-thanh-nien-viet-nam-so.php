@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Trang thong tin hoat dong co so
+ * Template Name: Trang thong tin hoi lien hiep thanh nien viet nam so
  */
 ?>
 <?php get_header(); ?>
@@ -41,10 +41,10 @@ echo $date;
     $paged = get_query_var('paged', 1);
     ?>
 
-<h1>THÔNG TIN HOẠT ĐỘNG CƠ SỞ</h1>
+<h1>THÔNG TIN HỘI LIÊN HIỆP THANH NIÊN SỞ</h1>
     <?php
     $v_args = array(
-        'cat' => 79,
+        'cat' => 78,
         'post_type' => 'post',
         'posts_per_page' => $postPerPage,
         'paged' => $paged
@@ -92,9 +92,9 @@ echo $date;
     echo "<ul class='pagination'>";
     for ($i = 1; $i <= $pagedPost; $i ++) {
         if ((int) $paged == $i) {
-            echo "<li><a href='http://doanso.abc/thong-tin-doan-thanh-nien-so/page/" . $i . "' class='active'>" . $i . "</a></li>";
+            echo "<li><a href='http://doanso.abc/thong-tin-hoi-lien-hiep-thanh-nien-viet-nam-so/page/" . $i . "' class='active'>" . $i . "</a></li>";
         } else {
-            echo "<li><a href='http://doanso.abc/thong-tin-doan-thanh-nien-so/page/" . $i . "'>" . $i . "</a></li>";
+            echo "<li><a href='http://doanso.abc/thong-tin-hoi-lien-hiep-thanh-nien-viet-nam-so/page/" . $i . "'>" . $i . "</a></li>";
         }
     }
     echo "</ul>";

@@ -347,21 +347,25 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 		<div class="logo">
 
 			<h1>
-				<a href="http://tuoitre.uit.edu.vn/"> <img
-					src="http://doanso.abc/wp-content/themes/doanso/images/logo.png"
-					alt="Tuổi trẻ UIT" width="250" height="120"> <img
-					class="mom_retina_logo"
-					src="http://doanso.abc/wp-content/themes/doanso/images/ttuit2015-min1.png"
-					width="461" height="120" alt="Tuổi trẻ UIT">
+				<a href="http://doanso.abc">
+				<?php
+				$featureId = 1502;
+				$postHeader = get_post( $featureId );
+				$content = $postHeader -> post_content;
+				echo $content;
+				?>
 				</a>
 
 			</h1>
 		</div>
 		<div class="header-right header-right_custom-content"
 			style="margin-top: 10px">
-			<!--<a href="http://tuoitre.uit.edu.vn/?p=16305"><img width="55%" style="position: absolute; right: 0px;" src="http://forum.uit.edu.vn/attachment.php?attachmentid=18161&d=1447836588"/></a>-->
-			<img width="55%" style="position: absolute; right: 0px;"
-				src="http://doanso.abc/wp-content/themes/doanso/images/PhienToaGiaDinh.jpg">
+			<?php
+				$featureId = 1498;
+				$postHeader = get_post( $featureId );
+				$content = $postHeader -> post_content;
+				echo $content;
+			?>
 		</div>
 		<div class="clear"></div>
 	</div>
