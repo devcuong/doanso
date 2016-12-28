@@ -81,6 +81,9 @@ add_action('wp_enqueue_scripts', 'thachpham_theme_register_js');
 function thachpham_theme_register_js()
 {
     $jsUrl = get_template_directory_uri() . '/js';
+    
+    wp_register_script('masteri_theme_jquery', $jsUrl . '/jquery.js', array(), '1.0');
+    wp_enqueue_script('masteri_theme_jquery');
 
     wp_register_script('masteri_theme_analytics', $jsUrl . '/analytics.js', array(), '1.0');
     wp_enqueue_script('masteri_theme_analytics');
@@ -112,9 +115,6 @@ function thachpham_theme_register_js()
     wp_register_script('masteri_theme_jquery.themepunch.revolution.min', $jsUrl . '/jquery.themepunch.revolution.min.js', array('jquery'), '1.0');
     wp_enqueue_script('masteri_theme_jquery.themepunch.revolution.min');
     
-    wp_register_script('masteri_theme_jquery', $jsUrl . '/jquery.js', array(), '1.0');
-    wp_enqueue_script('masteri_theme_jquery');
-    
     wp_register_script('masteri_theme_comment-reply.min', $jsUrl . '/comment-reply.min.js', array(), '1.0');
     wp_enqueue_script('masteri_theme_comment-reply.min');
     
@@ -133,7 +133,7 @@ function thachpham_theme_register_js()
     wp_register_script('masteri_theme_plugins.min', $jsUrl . '/plugins.min.js', array(), '1.0');
     wp_enqueue_script('masteri_theme_jquery.form.min');
     
-    wp_register_script('masteri_theme_main', $jsUrl . '/main.js', array(), '1.0');
+    wp_register_script('masteri_theme_main', $jsUrl . '/main.js', array('jquery'), '1.0');
     wp_enqueue_script('masteri_theme_main');
     
     wp_register_script('masteri_theme_jquery.prettyPhoto', $jsUrl . '/jquery.prettyPhoto.js', array(), '1.0');
@@ -256,15 +256,13 @@ if (! function_exists('thachpham_menu')) {
     {
         $menu = array(
             'theme_location' => $menu,
-            'container' => 'nav',
-            'container_class' => $menu
+            'container' => 'div',
+            'container_class' => "navigation-inner",
+            'menu_id' => 'menu-menu-chinhmain-menu',
+            'menu_class' => 'main-menu mom_visibility_desktop',
         );
 
-        $menu_object = wp_get_nav_menu_object( $menu );
-
-        echo $menu_object->name;
-
-        var_dump($menu_object);
+        wp_nav_menu( $menu );
     }
 }
 

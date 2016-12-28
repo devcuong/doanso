@@ -5433,7 +5433,6 @@ body.bp-user .mom_breadcrumb .breadcrumbs-plus .separator:last-child {
 }
 .bp-vertical-share .bp-entry {
     float: left;
-    margin-right: 103px;
 }
 .bp-vertical-share.share-off .bp-entry {
     float: none;
