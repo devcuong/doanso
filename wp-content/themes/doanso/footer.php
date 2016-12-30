@@ -20,7 +20,7 @@
 			<a href="http://doanso.abc/" style="color: violet; font-size: 13px;">
 				<img
 				src="http://doanso.abc/wp-content/themes/doanso/images/logo.png"
-				style="width: 40px; height: 40;"> <b>Đội Chuyển giao công nghệ</b>
+				style="width: 40px; height: 40;"> <b>Copyright Đoàn Sở Lao Động Thương Bình và Xã hội</b>
 			</a>
 		</div>
 		<ul class="mom-social-icons">

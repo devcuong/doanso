@@ -1689,7 +1689,6 @@ ul.main-menu > li:not(.mom_mega):not(.mom_mega_cats) ul.sub-menu li ul.sub-menu 
     padding: 0;
 }
 ul.main-menu > li.menu-item-has-children > a:after {
-    content: '\e6d2';
 	font-family: 'enotype';
 	speak: none;
 	font-style: normal;
@@ -1711,7 +1710,6 @@ ul.main-menu > li.menu-item-has-children.menu-item-iconsOnly > a:after {
     display: none;
 }
 ul.main-menu li:not(.mom_mega):not(.mom_mega_cats) ul.sub-menu li.menu-item-has-children > a:after {
-    content: '\e6d4';
 	font-family: 'enotype';
 	speak: none;
 	font-style: normal;

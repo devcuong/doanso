@@ -37,8 +37,9 @@
 			<div class="main-col">
 			<?php
             $v_args = array(
-                'tag_Id' => 72,
-                'post_type' => 'sdm_downloads'
+                'tag_id' => 72,
+                'post_type' => 'sdm_downloads',
+                'posts_per_page' => 10
             );
             $newsQuery = new WP_Query($v_args);
             ?>

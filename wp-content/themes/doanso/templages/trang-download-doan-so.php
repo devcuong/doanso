@@ -37,10 +37,12 @@
 			<div class="main-col">
 				<?php
                 $v_args = array(
-                    'tag_Id' => 71,
-                    'post_type' => 'sdm_downloads'
+                    'tag_ID' => 89,
+                    'post_type' => 'file_download',
+                    'posts_per_page' => 10
                 );
                 $newsQuery = new WP_Query($v_args);
+               /*  var_dump($newsQuery); */
                 ?>
                             <ol>
                        		<?php

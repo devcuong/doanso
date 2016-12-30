@@ -417,7 +417,8 @@ if (! function_exists('thachpham_entry_content')) {
             the_excerpt();
         } else {
             the_content();
-
+            $link =  get_post_meta( get_the_ID(), 'url_link');
+            echo "<a href='". $link[0]."'>download"."</a>";
             /* Phan trang trong single */
             $link_pages = array(
                 'before' => __('<p>Page: ', 'thachpham'),
